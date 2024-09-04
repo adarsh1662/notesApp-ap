@@ -10,3 +10,6 @@ const EmptyCard = ({imgSrc, message}) => {
 }
 
 export default EmptyCard
+
+
+
