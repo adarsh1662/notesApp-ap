@@ -28,6 +28,11 @@ app.get("/", (req,res) => {
 
 // CREATE ACCOUNT
 
+app.get("/" , (req,res) => {
+    res.send("hello from backend notes");
+});
+
+        
 app.post("/create-account", async (req,res) => {
     const {fullName, email, password} = req.body;
     if(!fullName){
